@@ -41,6 +41,8 @@ span.menu-text {font-weight:bold!important;}
 
 #main {
     padding: 0px 0 0px 0!important;
+    margin-top: 20px!important;
+
 }
 .vc_col-has-fill>.vc_column-inner{
 	padding-top: 90px!important;
@@ -69,7 +71,9 @@ span.menu-text {font-weight:bold!important;}
 #main > .wf-wrap {
     padding-bottom: 35px!important;
 }
-
+.page-id-1770 #main {
+    margin-top: -20px!important;
+}
 input[type="submit"] {
     border-radius: 22px!important;
     background-color: #0088cc!important;
