@@ -10,6 +10,12 @@ License URI: License.txt
 Tags: multipurpose, responsive, retina ready, SEO ready, mobile friendly, iOS, material design, clean, minimal, business, corporate, portfolio, creative, photography, one page site, micro site
 Text Domain: the7mk2
 */
+.page-id-18 body, body.page, page-id-38 body, body.page, page-id-146 body, body.page, input[type="submit"] {
+   font-family:"Droid Sans"!important;
+}
+.page-id-18 button, .page-id-38 button, .page-id-146 a, input[type="submit"] { font-size:14px!important; }
+
+span.menu-text {font-weight:bold!important;}
 
 .blog .dt-format-gallery .dt-format-gallery-coll.full,
 .archive .dt-format-gallery .dt-format-gallery-coll.full,
@@ -41,7 +47,7 @@ Text Domain: the7mk2
 }
 
 .masthead:not(.side-header):not(.mixed-header) .header-bar {
-    min-height: 60px!important;
+	min-height: 60px!important;
 }
 
 
@@ -49,5 +55,26 @@ Text Domain: the7mk2
 	opacity:0.8!important;
 }
 .main-nav > li:not(.wpml-ls-item) > a .menu-text {
-    color: #ffffff!important;
+	color: #ffffff!important;
+}
+/*----Footer CSS-----*/
+.footer .soc-ico a:before {
+	background-color: #edeeee!important;
+}
+#bottom-bar, #bottom-bar a, #bottom-bar .mini-nav .customSelect, #bottom-bar .menu-select {
+	color: #ffffff!important;
+}
+
+/*----CSS for Pricing page----*/
+#main > .wf-wrap {
+    padding-bottom: 35px!important;
+}
+
+input[type="submit"] {
+    border-radius: 22px!important;
+    background-color: #0088cc!important;
+    width: 120px!important;
+}
+.main-nav > li > a .menu-text {
+    text-transform: capitalize!important;
 }
